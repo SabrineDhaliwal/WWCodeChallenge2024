@@ -7,4 +7,5 @@ Day 1 - JS Drum kit
 
 
 Day 2 - CSS & JS Clock
+    Using Wes Bos starter code, get date adn set to degrees to emulate a ticking clock. 
     
