@@ -10,4 +10,6 @@ Day 2 - CSS & JS Clock
     Using Wes Bos starter code, get date adn set to degrees to emulate a ticking clock. 
     
 Day 3 - Playing with CSS Variables & JS
-  
+    setting valirable with css (not SASS) and changing the state by using setProperty method.
+
+Day 4 - Array Cardio Day 1    
