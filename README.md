@@ -20,3 +20,10 @@ Day 5 - Flex Panel Gallery
 
  Day 6 - Type Ahead
     building a search bar functionality. Using a large array of cities, get the data using 'fetch' and .then methods, display the data usign DOM minipulations.       
+
+
+Day 7 - Array Cardio day 2
+    .find, .findIndex, .some and .every
+
+Day 8 - Fun with HTML Canvas
+    using event listeners and get context to build an interactice canvas. super fun,
