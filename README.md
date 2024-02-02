@@ -27,3 +27,7 @@ Day 7 - Array Cardio day 2
 
 Day 8 - Fun with HTML Canvas
     using event listeners and get context to build an interactice canvas. super fun,
+
+Day 9 - Playing with different console methods
+    .time, .warn .dir and so many more. 
+        
