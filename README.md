@@ -30,4 +30,11 @@ Day 8 - Fun with HTML Canvas
 
 Day 9 - Playing with different console methods
     .time, .warn .dir and so many more. 
-        
+
+Day 10 - Hold Shift to check Multiple checkboxes
+
+
+Day 11
+
+Day 12
+
