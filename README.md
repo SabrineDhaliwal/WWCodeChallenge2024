@@ -32,9 +32,9 @@ Day 9 - Playing with different console methods
     .time, .warn .dir and so many more. 
 
 Day 10 - Hold Shift to check Multiple checkboxes
+    using booleans and if statements to select checkboxes that are inbetween two checked boxes and changing the boolean from false to true
 
-
-Day 11
+Day 11 - custom video player in HTML
 
 Day 12
 
