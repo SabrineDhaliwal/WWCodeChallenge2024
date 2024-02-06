@@ -38,4 +38,9 @@ Day 11 - custom video player in HTML
 so many moving parts with event listeners and learnign new video properties. Fun one! 
 
 Day 12 - Key Sequence detection (konami code)
+ A fun little script that tracks keys pressed and checks to see if the keys pressed include the secret code, when the secret code is achieved, a unicorn appears using an external script. 
+
+ Day 13 - Slide in on Scroll
+    introduced debouce function that will help with performance when using scroll. Introduction to image and window properties like offsetTop, scrollY. 
+
 
