@@ -35,6 +35,7 @@ Day 10 - Hold Shift to check Multiple checkboxes
     using booleans and if statements to select checkboxes that are inbetween two checked boxes and changing the boolean from false to true
 
 Day 11 - custom video player in HTML
+so many moving parts with event listeners and learnign new video properties. Fun one! 
 
-Day 12
+Day 12 - Key Sequence detection (konami code)
 

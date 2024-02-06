@@ -62,8 +62,16 @@ skipButtons.forEach(skipButton =>  skipButton.addEventListener('click', skip))
 ranges.forEach(range=> range.addEventListener('change', handleRangeUpdate));
 
 // look at canvas and write code so taht it only listen to mouse down
-ranges.forEach(range=> range.addEventListener('mousemove', handleRangeUpdate));
-
+// ranges.forEach(range=> range.addEventListener('mousemove', handleRangeUpdate));
+ranges.forEach(range =>{
+    range.addEventListener('mousedown', ()=> {
+        isRangeClicked =true;
+    });
+    range.addEventListener('mouseup', ()=> {
+        isRangeClicked = false;
+    });
+    range.addEventListener('mousemove', handleRangeUpdate())
+})
 
 let mousedown = false;
 progress.addEventListener('click', scrub);
@@ -73,4 +81,3 @@ progress.addEventListener('mouseup', ()=> mousedown = false);
 
 //attempt at fullscreen
 fullScreen.addEventListener('click', ()=> {video.requestFullscreen() });
-fullScreen.addEventListener('click', ()=> {video.exitFullscreen() })
