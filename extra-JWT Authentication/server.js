@@ -3,20 +3,19 @@ const app = express();
 const bcrypt = require("bcrypt");
 const fs = require("fs");
 
-
 require("dotenv").config();
 const PORT = process.env.PORT || 5052;
 
 //middleware
 
 app.use(express.json());
-let users = [];
+let users = [{}];
 
 try {
-    const userData = fs.readFileSync('users.json');
-    users = JSON.parse(userData);
-} catch(error){
-    console.error("error reading user file", error)
+  const userData = fs.readFileSync("users.json");
+  users = JSON.parse(userData);
+} catch (error) {
+  console.error("error reading user file", error);
 }
 
 // app.get('/posts', (req, res)=>{
@@ -34,33 +33,52 @@ app.get("/users", (req, res) => {
 app.post("/users", async (req, res) => {
   try {
     // const salt = await bcrypt.genSalt();
-    //dont need line 29- its already included in bcrypt, instead pass in the numberof rounds you want, standard is 10
+    //dont need line 36- its already included in bcrypt, instead pass in the numberof rounds you want, standard is 10
+
     // const hashedPassword = await bcrypt.hash(req.body.password, salt);
     const hashedPassword = await bcrypt.hash(req.body.password, 10);
     // line 32 - removed salt variable and added numberof rounds
-    
+
     // console.log("hashed", hashedPassword);
-    const user = { name: req.body.name, password: hashedPassword };
-    // users.push(user);
+    const newUser = { name: req.body.name, password: hashedPassword };
 
+    users.push(newUser);
     // writing to json file
-
-    fs.writeFile('users.json', JSON.stringify(user),(err) => {
-        if (err){
-            console.error(err);
-            res.status(500).send({message: 'error at writing user data to json file'});
-            return;
-        }
-        console.log("user data succesfully written to json")
-        res.status(201).send("sucess");
-    })
-   
+    fs.writeFile("users.json", JSON.stringify(users), (err) => {
+      if (err) {
+        console.error(err);
+        res
+          .status(500)
+          .send({ message: "error at writing user data to json file" });
+        return;
+      }
+      console.log("user data succesfully written to json");
+      res.status(201).send("sucess");
+    });
   } catch (err) {
     console.error(err);
     res.status(500).send({ message: "error at posting new user" });
   }
 });
 
+
+app.post('/users/login', async (req, res)=> {
+    const user = users.find(user=> user.name =req.body.name)
+    if (user == null){
+        return res.status(400).send("User not found")
+    }
+try{
+    if (await bcrypt.compare(req.body.password, user.password)){
+        res.send("success");
+    } else {
+        res.send("Not Allowed");
+    }
+}
+catch (err){
+    console.error("error at users/login", err)
+    res.send(500).send();
+}
+})
 app.listen(PORT, () => {
   console.log(`app running on port ${PORT}`);
 });

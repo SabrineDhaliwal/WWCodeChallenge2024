@@ -1,1 +1,14 @@
-{"name":"Try again","password":"$2b$10$r.kfOT1CHqc/i3BmUzF2UOdhsnAj6NgKtwgR8Gqot7F2Yy9eNQIoG"}
+[
+  {
+    "name": "Ellie",
+    "password": "$2b$10$kYTyUYw600guvDMaFsnOQ.Ibvh1f3mZU/W35o.gkO4TwXI2UDLmra"
+  },
+  {
+    "name": "Sabrine",
+    "password": "$2b$10$bUYQfKhys1QxA.itwLgPA.tPibpAm9hjy84SiE7dBODb8oI7xTh5K"
+  },
+  {
+    "name": "Jas",
+    "password": "$2b$10$XeSSDFVC/qJE/qx.Ne2sQuyuHUVwS/VO8oyhEw.9BcW9UcifoM2bC"
+  }
+]
