@@ -26,6 +26,10 @@ app.get("/users", (req, res) => {
   res.json(users);
   //authenticate user here
 });
+
+
+
+// Creating a user
 // need to use bcrypt to has the password to secure the database, bcrypt adds
 //salt to the hash so that if
 //two users havet he same password, they don't look the same when hashed- added extrra security
@@ -37,7 +41,7 @@ app.post("/users", async (req, res) => {
 
     // const hashedPassword = await bcrypt.hash(req.body.password, salt);
     const hashedPassword = await bcrypt.hash(req.body.password, 10);
-    // line 32 - removed salt variable and added numberof rounds
+    // removed salt variable and added numberof rounds
 
     // console.log("hashed", hashedPassword);
     const newUser = { name: req.body.name, password: hashedPassword };

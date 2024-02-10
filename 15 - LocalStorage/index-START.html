@@ -115,7 +115,6 @@
 
       function checkList(e) {
         e.preventDefault();
-        console.log(items[0]);
         items.map((item)=> {
           if (item.done === false) {
             item.done = true;
@@ -128,9 +127,10 @@
       function uncheckList(e){
         e.preventDefault();
         items.map((item)=> {
-          if(item.done ===true){
-            item.done = false
-          }
+          // if(item.done ===true){
+          //   item.done = false
+          // }
+          (item.done = true ? false : item.done);
         });
         localStorage.setItem('items', JSON.stringify(items))
         poplateList(items, itemsList)

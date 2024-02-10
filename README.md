@@ -47,7 +47,12 @@ Day 12 - Key Sequence detection (konami code)
 
  day 15 - LocalStorage & Event Delegation
     event listeners did the extra challenge of clearing all, checking all and unchecking all
-    
+
+
+ Day 16 - CSS text shadow mouse move effect
+
+ Day 17 - Sort Without Articles
+       
  extra - JWT-authentication 
     - building user logins with bcrypt
     - tutorial from web dev simplified
