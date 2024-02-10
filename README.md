@@ -43,8 +43,13 @@ Day 12 - Key Sequence detection (konami code)
  Day 13 - Slide in on Scroll
     introduced debouce function that will help with performance when using scroll. Introduction to image and window properties like offsetTop, scrollY. 
 
- Day 14
+ Day 14- object adn array references & copying
 
- extra - JWT-authentication
+ day 15 - LocalStorage & Event Delegation
+    event listeners did the extra challenge of clearing all, checking all and unchecking all
     
+ extra - JWT-authentication 
+    - building user logins with bcrypt
+    - tutorial from web dev simplified
+
 
