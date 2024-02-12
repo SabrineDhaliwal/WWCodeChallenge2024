@@ -52,9 +52,16 @@ Day 12 - Key Sequence detection (konami code)
  Day 16 - CSS text shadow mouse move effect
 
  Day 17 - Sort Without Articles
-       
- extra - JWT-authentication 
+
+ extra - Authentication 
     - building user logins with bcrypt
     - tutorial from web dev simplified
+
+JWT Authentication Tutorial - web dev simplified
+    -creating Node.Js authentication middleware
+    -using refresh toekens with JWT
+    -authenticating users with JWT
+    -Invalidating resfresh tokens to log users out
+    -how to use JWT securely
 
 

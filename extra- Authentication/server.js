@@ -25,6 +25,7 @@ try {
 app.get("/users", (req, res) => {
   res.json(users);
   //authenticate user here
+  //change this to post- go to route below
 });
 
 
