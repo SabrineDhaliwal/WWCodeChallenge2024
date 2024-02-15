@@ -33,7 +33,7 @@ app.get("/users", (req, res) => {
 // Creating a user
 // need to use bcrypt to has the password to secure the database, bcrypt adds
 //salt to the hash so that if
-//two users havet he same password, they don't look the same when hashed- added extrra security
+//two users havet he same password, they don't look the same when hashed- added extra security
 //bcrypt is asynchronous
 app.post("/users", async (req, res) => {
   try {

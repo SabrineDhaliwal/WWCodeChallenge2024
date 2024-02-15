@@ -57,11 +57,22 @@ Day 12 - Key Sequence detection (konami code)
     - building user logins with bcrypt
     - tutorial from web dev simplified
 
-JWT Authentication Tutorial - web dev simplified
+Day 18 
+Day 19
+Day 20
+JWT Authentication Tutorial - web dev simplified 
     -creating Node.Js authentication middleware
     -using refresh toekens with JWT
     -authenticating users with JWT
     -Invalidating resfresh tokens to log users out
     -how to use JWT securely
+
+    applied to personal project Roll & reflect - different repo 
+
+Day 21 - Adding up Times
+taking time stamps form video lengths and spliting into seconds, running a few functions to calcualte hours then minutes for total run time.
+
+Day 22 - Webcam Fun 
+    playing with with webcam, getting it hooked up to browser, adding color effects
 
 

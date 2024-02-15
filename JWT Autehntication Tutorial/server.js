@@ -35,7 +35,7 @@ res.json(posts.filter(post=> post.username ===req.user.name))
 //    res.json({accessToken: accessToken})
 
 // })
-
+// this is middleware
 function authenticateToken(req, res, next){
     const authHeader = req.headers['authorization'];
     const token = authHeader && authHeader.split(' ')[1];
