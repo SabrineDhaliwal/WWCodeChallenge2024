@@ -53,20 +53,18 @@ Day 12 - Key Sequence detection (konami code)
 
  Day 17 - Sort Without Articles
 
- extra - Authentication 
+Day 18 
+    - extra - Authentication 
     - building user logins with bcrypt
     - tutorial from web dev simplified
-
-Day 18 
 Day 19
-Day 20
 JWT Authentication Tutorial - web dev simplified 
     -creating Node.Js authentication middleware
     -using refresh toekens with JWT
     -authenticating users with JWT
     -Invalidating resfresh tokens to log users out
     -how to use JWT securely
-
+Day 19 & day 20
     applied to personal project Roll & reflect - different repo 
 
 Day 21 - Adding up Times
@@ -74,5 +72,8 @@ taking time stamps form video lengths and spliting into seconds, running a few f
 
 Day 22 - Webcam Fun 
     playing with with webcam, getting it hooked up to browser, adding color effects
+
+Day 23 - Native Speech Recognition
+    
 
 
