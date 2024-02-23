@@ -74,6 +74,14 @@ Day 22 - Webcam Fun
     playing with with webcam, getting it hooked up to browser, adding color effects
 
 Day 23 - Native Speech Recognition
+    exploring how to get speech recognition, display on the dom and formatting to a new paragraph
+
+Day 24- Personal Project Roll & Reflect
+
+Day 25- Follow Along Links
+    using getBoundingClientRect() to get coordinate of each element and then adding window.scrollX &Y to account for when the user scrolls. 
+    
+
     
 
 
