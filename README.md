@@ -80,7 +80,9 @@ Day 24- Personal Project Roll & Reflect
 
 Day 25- Follow Along Links
     using getBoundingClientRect() to get coordinate of each element and then adding window.scrollX &Y to account for when the user scrolls. 
-    
+
+    - 
+
 
     
 
