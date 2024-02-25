@@ -81,7 +81,11 @@ Day 24- Personal Project Roll & Reflect
 Day 25- Follow Along Links
     using getBoundingClientRect() to get coordinate of each element and then adding window.scrollX &Y to account for when the user scrolls. 
 
-    - 
+    - Speech Synthesis 
+    using chromes built in voices, have the voices speak the text (utterance) in a selected voice with adjustable speed and pitch. 
+
+Day 26 - Sticky Nav
+
 
 
     
