@@ -85,7 +85,9 @@ Day 25- Follow Along Links
     using chromes built in voices, have the voices speak the text (utterance) in a selected voice with adjustable speed and pitch. 
 
 Day 26 - Sticky Nav
+sticky nav using JS
 
+Day 27 - Event Capture, propagation Bubbling and Once 
 
 
     

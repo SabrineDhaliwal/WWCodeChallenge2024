@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Understanding JavaScript's Capture</title>
+  <link rel="icon" href="https://fav.farm/🔥" />
+</head>
+<body class="bod">
+
+  <div class="one">
+    <div class="two">
+      <div class="three">
+      </div>
+    </div>
+  </div>
+
+<style>
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  div {
+    width: 100%;
+    padding: 100px;
+  }
+
+  .one {
+    background: thistle;
+  }
+
+  .two {
+    background: mistyrose;
+  }
+
+  .three {
+    background: coral;
+  }
+</style>
+
+<button>click me</button>
+<script>
+const divs = document.querySelectorAll("div");
+const button = document.querySelector('button')
+
+function logText(e){
+  // e. stopPropagation()
+    //stopPropagation will kill the bubbling effect, 
+  
+  console.log(this.classList.value)
+}
+
+//capture will fire the event on the way down body> div1>div2>div3 where by default it bubbles up causing this event listner
+// to log three, two, one, it fires the event on every div on the way (bubble) up. 
+//setting capture to true will fire the event on the way down to the div you clicked on
+divs.forEach(div => div.addEventListener("click", logText, {
+  capture:false,
+  // once: true
+   //listen for a clickone then unbind itselfves and not fire again until the page is reloaded 
+}));
+
+button.addEventListener('click', ()=> {
+  console.log("Click");
+}, {
+  once:true
+})//this is helpful for store checkouts that only allows the user to submit on click. 
+</script>
+</body>
+</html>
