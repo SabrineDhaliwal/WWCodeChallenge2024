@@ -89,6 +89,9 @@ sticky nav using JS
 
 Day 27 - Event Capture, propagation Bubbling and Once 
 
+Day 28 - Stripe Follow Along with Nav
+
+
 
     
 
