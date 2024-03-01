@@ -99,6 +99,9 @@ multiple event listeneners on mousedown, up, move & leave, adjusting for offset 
 day 30 part 2: Video speed control
     super fun way to figure how to adjust the playbackRate of a video.
 
+Day 31 - Countdown Timer
+    
+
 
     
 
