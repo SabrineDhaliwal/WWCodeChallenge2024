@@ -91,7 +91,7 @@ Day 27 - Event Capture, propagation Bubbling and Once
 
 Day 28 - Stripe Follow Along with Nav
 
-Day 29- preson project-all about forms- different repo
+Day 29- personal project-all about forms- different repo
 
 Day 30 Click & Drag
 multiple event listeneners on mousedown, up, move & leave, adjusting for offset of the parent div.
@@ -100,7 +100,9 @@ day 30 part 2: Video speed control
     super fun way to figure how to adjust the playbackRate of a video.
 
 Day 31 - Countdown Timer
+    using new Date.now and some simple math to solve the time elapse. 
     
+
 
 
     
